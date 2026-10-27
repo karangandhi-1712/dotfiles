@@ -1,0 +1,25 @@
+{
+    "defaultShader": {
+        "blue_diamond.frag": {
+            "name": "blue_diamond.frag",
+            "path": "/home/karan/.local/share/gnome-shell/extensions/shaderpaper@fogyverse.in/blue_diamond.frag"
+        },
+        "booting.frag": {
+            "name": "booting.frag",
+            "path": "/home/karan/.local/share/gnome-shell/extensions/shaderpaper@fogyverse.in/booting.frag"
+        },
+        "bouncing_circle.frag": {
+            "name": "bouncing_circle.frag",
+            "path": "/home/karan/.local/share/gnome-shell/extensions/shaderpaper@fogyverse.in/bouncing_circle.frag"
+        },
+        "creation.frag": {
+            "name": "creation.frag",
+            "path": "/home/karan/.local/share/gnome-shell/extensions/shaderpaper@fogyverse.in/creation.frag"
+        },
+        "default.frag": {
+            "name": "default.frag",
+            "path": "/home/karan/.local/share/gnome-shell/extensions/shaderpaper@fogyverse.in/default.frag"
+        }
+    },
+    "customShader": {}
+}

@@ -1,0 +1,43 @@
+{
+  "redhat.telemetry.enabled": false,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "editor.mouseWheelZoom": true,
+  "files.autoSaveWhenNoErrors": true,
+  "geminicodeassist.project": "skilful-ray-1bzck",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": false,
+    "scminput": false,
+    "javascript": true,
+    "plaintext": true
+  },
+  "chat.sessionSync.enabled": true,
+  "chat.agent.sandbox.enabled": "on",
+  "clangd.detectExtensionConflicts": false,
+  "python.languageServer": "Default",
+  "network.meteredConnection": "off",
+  "chat.viewSessions.orientation": "stacked",
+
+  /* --- PLATFORM TRANSITION & APPARENCE SYNCHRONIZATION --- */
+  
+  // Title Bar Behavior: Native handles decoration placement per OS natively.
+  // On your Linux setup, this forces the traffic lights to the left via your GTK theme rules.
+  "window.titleBarStyle": "native", 
+  "window.customTitleBarVisibility": "never",
+
+  // Font Stack Priority: Linux evaluates Mac tokens first. Windows bypasses them automatically.
+  "editor.fontFamily": "'SF Mono', 'JetBrainsMonoNL Nerd Font Mono', 'JetBrainsMonoNL Nerd Font', 'JetBrainsMono Nerd Font Mono', 'JetBrainsMono Nerd Font', 'Droid Sans Mono', monospace",
+  
+  // Smooth UX Tuning (Universally supported but matches macOS high-inertia feel)
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.fontAliasing": "antialiased",
+  "terminal.integrated.fontFamily": "monospace"
+}
